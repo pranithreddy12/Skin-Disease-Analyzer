@@ -5,7 +5,7 @@ import requests
 import json
 def send_image(prompt):
 # Configure API key
-    genai.configure(api_key="AIzaSyC8QxAJpeyZe2BySn6QymSOI9X0BHGrkTo")
+    genai.configure(api_key="APIKEY")
 
     # Choose a multimodal model
     model = genai.GenerativeModel("gemini-1.5-flash")
