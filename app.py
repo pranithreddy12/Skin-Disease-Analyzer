@@ -3,13 +3,7 @@ import json
 import random
 import image_processor as ai
 # Define skin conditions and their details
-SKIN_CLASSES = [
-    {"name": "Acne", "fullName": "Acne Vulgaris", "medications": ["Benzoyl Peroxide", "Retinoids"], "precautions": ["Wash face twice daily", "Avoid oily food"]},
-    {"name": "Eczema", "fullName": "Atopic Dermatitis", "medications": ["Hydrocortisone", "Moisturizers"], "precautions": ["Use fragrance-free soap", "Avoid scratching"]},
-    {"name": "Psoriasis", "fullName": "Psoriasis Vulgaris", "medications": ["Topical Steroids", "Vitamin D Analogues"], "precautions": ["Avoid stress", "Keep skin hydrated"]},
-    {"name": "Rosacea", "fullName": "Rosacea", "medications": ["Metronidazole", "Azelaic Acid"], "precautions": ["Avoid spicy foods", "Use sunscreen"]},
-    {"name": "Melanoma", "fullName": "Malignant Melanoma", "medications": ["Surgical Excision", "Immunotherapy"], "precautions": ["Avoid excessive sun exposure", "Regular dermatologist checkups"]}
-]
+
 
 class RequestHandler(BaseHTTPRequestHandler):
     
